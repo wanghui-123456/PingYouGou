@@ -1,0 +1,132 @@
+.main {
+    width: 980px;
+    height: 465px;
+    margin-left:220px;
+}
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    margin-top: 10px;
+}
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+    margin-top: 10px;
+} 
+/* .arrow_left {
+    float: left;
+    width: 25px;
+    height: 40px;
+    background-color: 221, 237, 255, .5;
+}
+.arrow_right {
+    float: right;
+    width: 25px;
+    height: 40px;
+    background-color: 221, 237, 255, .5;
+} */
+.newsflash .news {
+    height: 165px;
+    border: 1px solid #cccccc;
+}
+.news .hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #cccccc;
+    padding:0 15px;
+}
+.news .hd h5 {
+    float: left;
+    font-size: 14px;
+}
+.news .hd .more {
+    float: right;
+}
+.news .hd .more::after {
+    font-family: 'icomoon';
+    content: '\e900';
+}
+.news .bd {
+    padding: 15px 0 0 16px;
+}
+.news .bd ul li {
+    height: 22px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.newsflash .lifeservice {
+    overflow: hidden; 
+    height: 209px;
+    border: 1px solid #cccccc;
+    border-top:0;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right:1px solid #cccccc;
+    border-bottom:1px solid #cccccc;
+    text-align: center;
+}
+.lifeservice ul li i {
+    display: inline-block;
+    width: 26px;
+    height: 29px;
+    background: url(../images/icons.png) no-repeat -17px -16px;
+    margin-top: 10px;
+}
+.newsflash img {
+    margin-top: 5px;
+}
+.recom {
+    height: 163px;
+    margin-top: 10px;
+}
+.recom .recom_hd {
+    float: left;
+    width: 206px;
+    height: 163px;
+    background-color: #666666;
+    text-align:center;
+    font-size: xx-large;
+    color:white;
+    line-height: 163px;
+
+}
+.recom .recom_bd {
+    float: left;
+    width: 994px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+.recom .recom_bd ul li {
+    float: left;
+}
+.box_hd {
+    height: 24px;
+    margin-top: 30px;
+    border-bottom: 2px solid #c81623;
+    line-height: 24px;
+}
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-style: normal;
+}
+.box_hd .table_list {
+    float: right;
+}
+.box_hd .table_list ul li {
+    float: left;
+}
+.box_hd .table_list ul li a {
+    padding:0 18px;
+    font-size: 14px;
+}

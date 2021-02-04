@@ -1,0 +1,111 @@
+.w {
+    width: 1200px;
+    margin:0 auto;
+}
+.color_red {
+    color: #c40000;
+}
+header {
+    height: 84px;
+    border-bottom: 2px solid #b1191a;
+    line-height: 84px;
+}
+.register_area {
+    height: 522px;
+    border:1px solid #66667f61;
+    margin-top:20px;
+}
+.register_area h3 {
+    height: 42px;
+    background-color: #c9c9cf;
+    border-bottom:1px solid #66667f61;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.register_area h3 .login {
+    float: right;
+    font-size: 14px;
+}
+.reg_form  {
+    width: 600px;
+    margin:50px auto 0;
+}
+.reg_form ul li {
+    margin-bottom: 10px;
+}
+.reg_form ul li label {
+    display: inline-block;
+    width: 98px;
+    font-size: 16px;
+    text-align: right;
+}
+.reg_form ul li .inp {
+    width: 210px;
+    height: 37px;
+    border:1px solid #c5c5ce;
+}
+.reg_form ul li .error {
+    color: #ff3f08;
+    margin-left: 10px;
+}
+.reg_form ul li .right {
+    color: #4ac960;
+    margin-left: 10px;
+}
+.error_icon,.right_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;   
+}
+.error_icon {
+    background: url(../images/error_icon.png) no-repeat;
+}
+.right_icon {
+    background: url(../images/right_icon.png) no-repeat;
+}
+.sf {
+    padding-left:156px;
+}
+.sf em {
+    padding: 0 10px;
+    color:white;
+}
+.ruo {
+    background-color: orangered;
+}
+.zhong {
+    background-color: green;
+}
+.qiang {
+    background-color:red;
+}
+.agree {
+    padding-top: 7px;
+    padding-left:111px;
+}
+.agree input {
+    vertical-align: middle;
+}
+.agreement {
+    color: #00a5db;
+}
+.completed {
+    width: 200px;
+    height: 34px;
+    background-color: red;
+    font-size: 14px;
+    color: white;
+    margin-left: 103px;
+    margin-top: 30px;
+}
+
+.mod_copyright {
+    text-align: center;
+}
+.mod_copyright .links {
+    margin: 23px 0;
+}
+
